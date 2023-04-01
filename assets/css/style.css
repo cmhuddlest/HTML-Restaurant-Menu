@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -39,6 +40,11 @@ nav ul {
 
 nav li {
     display: inline;
+}
+button {
+    background-color: initial;
+    border: 0px;
+    color: green;
 }
 
 nav a {
@@ -54,7 +60,7 @@ nav a:hover {
 
 #banner {
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: white;
 }
 
@@ -72,15 +78,23 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
     border: 3px solid black;
     width: 100%;
+    color: green;
+    border: 1px solid green;
+    
 }
   
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+address{
+    color: green;
 }
