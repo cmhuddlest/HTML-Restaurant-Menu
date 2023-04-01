@@ -67,7 +67,7 @@ nav a:hover {
 
 
 #banner {
-    width: 100%;
+    width: 35% ;
     height: auto;
     background-color: white;
 }
@@ -131,4 +131,15 @@ img.logo{
 
     width: 1%;
     height: auto; 
+}
+
+img.bowls{
+    width: 45%;
+    height: auto; 
+
+}
+img.tables{
+    width: 65%;
+    height: auto; 
+
 }
